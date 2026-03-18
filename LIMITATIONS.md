@@ -1,0 +1,3 @@
+# LIMITATIONS
+
+This image captioning model performs well on clear and simple images but struggles with complex or abstract inputs. It often produces repetitive text and may hallucinate details that are not present in the image. The model does not have a mechanism for uncertainty and will always return a caption, even when confidence is low. It also performs poorly on screenshots, memes, or images containing text. Additionally, the model may miss secondary objects in multi-object scenes. These limitations make it unsuitable for high-stakes applications requiring precise or reliable visual understanding.
